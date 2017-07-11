@@ -30,5 +30,7 @@ ENV NODE_ENV production
 
 WORKDIR /app
 
+EXPOSE 9000
+
 # start
 CMD ["npm", "start"]
